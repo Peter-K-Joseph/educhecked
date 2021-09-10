@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - EduChecked</title>
+    <link rel="shortcut icon" href="./resources/logo/loading.png" type="image/x-icon">
+    <script src="./js/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/notiflix-2.7.0.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="stylesheet" href="./css/notiflix-2.7.0.min.css">
+    <script src="./js/notiflix-aio-2.7.0.min.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div>
+            <img src="./resources/logo/nav_logo.png" class="logo_design" alt="Edu Checked Logo">
+        </div>
+        <div class="nav_linkOrigin">
+            <ul>
+                <li class="active">Home</li>
+                <li onclick="window.location.href = './about.html'">About</li>
+                <li onclick="window.location.href = './program.html'">Programs</li>
+                <li class="active" onclick="window.location.href = './test.html'">Assessment</li>
+                <li>Blogs</li>
+                <li class="signup desktop-hide">Sign Up</li>
+                <li class="login desktop-hide">Login</li>
+            </ul>
+        </div>
+        <div class="navbarcomponent">
+            <ul>
+                <li class="signup mobile-hide">Sign Up</li>
+                <li class="login mobile-hide">Login</li>
+            </ul>
+            <div class="nav-icon-hamburger desktop-hide">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="main_viewport view_1 flex firstpageview flex-center flex-row flex-mobile-col h-100">
+            <div class="inner_viewport h-100 w-100 flex flex-center">
+                <div class="inner_view">
+                    <span class='edu_check_typed'><span class="circle"></span> EduChecked</span>
+                    <h1 class="master-quote" id="master-quote"></h1>
+                </div>
+            </div>
+            <div class="h-100 w-100 flex flex-center">
+                <img src="./resources/prefix_ui/2.png" height="80%" alt="">
+            </div>
+        </div>
+        <div class="main_viewport secondpageview view_1 flex flex-center flex-col h-100">
+            <h2>We provide <span class="focus">skill</span> and <span class="focus">industrial-based</span>
+                learning among school students</b></h2>
+            <div class="w-80 h-60 flex flex-center">
+                <div class="info">
+                    <div data-redirect="" class="category">EduTech</div>
+                    <div data-redirect="" class="category">Soft Skills</div>
+                    <div data-redirect="" class="category">Tech & Art</div>
+                    <div data-redirect="" class="category">Fun Learning</div>
+                    <div data-redirect="" class="category">21<sup>st</sup>&nbsp;Training Skills</div>
+                    <div data-redirect="" class="category">Faculty Learning</div>
+                    <!-- <div data-redirect="" class="category more">and more...</div> -->
+                </div>
+            </div>
+        </div>
+        <div class="main_viewport secondpageview view_1 flex flex-center flex-col h-100">
+            <h2>We help provide <span class="focus">usefull insights</span> to <span class="focus">strengthen</span>
+                their skills</b></h2>
+            <div class="w-80 h-60 flex flex-center d-none_mobile">
+                <div class="row">
+                    <span class="prim" data-rel="0">Psychometric Assessments</span>
+                    <span class="prim" data-rel="1">Psychological Assessments</span>
+                    <span class="prim" data-rel="2">Career Assessment</span>
+                    <span class="prim" data-rel="3">Growth assessment</span>
+                </div>
+                <div class="info">
+                    <span class="whitebg_board" id="infoWhitebd">
+
+                    </span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!-- <div class="subscribe_newsletter">
+            <div>
+                <input type="email" placeholder="Enter your email here" name="user_email" id="">
+                <button>Subscribe</button>
+            </div>
+        </div> -->
+        <div class="nav_linkredirects"></div>
+        <div></div>
+    </footer>
+</body>
+<script src="./js/index.js"></script>
+
+</html>
